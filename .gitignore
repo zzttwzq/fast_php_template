@@ -1,0 +1,62 @@
+.DS_Store
+
+# admin
+admin/node_modules/
+admin/dist/
+
+# api
+api/node_modules/
+api/dist/
+
+# mini_program
+mini_program/node_modules/
+mini_program/dist/
+mini_program/unpackage/cache
+mini_program/unpackage/dist
+mini_program/unpackage/release
+
+# php
+php/Creators/backup/*
+php/Creators/temp/*
+php/Creators/back/*
+php/Storage/*
+
+.DS_Store
+node_modules/
+dist/
+admindb/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/unit/coverage/
+coverage/
+/test/e2e/reports/
+selenium-debug.log
+/__apiCreator__/json/
+/__apiCreator__/services/
+/__apiCreator__/mocks/
+/__apiCreator__/token.json*
+/__apiCreator__/files/*
+/__apiCreator__/models/*
+/__apiCreator__/getCreator.js
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+package-lock.json
+.env.production.local
+
+.DS_Store
+node_modules/
+unpackage/cache/
+unpackage/debug/
+unpackage/dist/
+unpackage/release/
+unpackage/resources/
+common/appConfig.js
+*.test.js
