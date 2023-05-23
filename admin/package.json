@@ -21,7 +21,7 @@
         "ali-oss": "^6.16.0",
         "animate.css": "^4.1.0",
         "ant-design-vue": "1.7.2",
-        "antdv-fast-table": "^1.1.0",
+        "antdv-fast-table": "^1.1.1",
         "axios": "^0.19.2",
         "clipboard": "^2.0.8",
         "core-js": "^3.6.5",

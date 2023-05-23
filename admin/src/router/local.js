@@ -1,4 +1,5 @@
 import TabsView from '@/layouts/tabs/TabsView'
+import PageView from '@/layouts/PageView'
 
 // 全局路由配置
 // 内容路由需要添加在 首页 下面，如果要显示在侧边栏则需要添加 
@@ -35,6 +36,24 @@ const routesConfig = [{
                 },
                 component: () =>
                     import ('@/pages/home/'),
+            },
+
+            {
+                path: "/learn1",
+                name: "学习内容",
+                meta: {
+                    icon: "user"
+                },
+                component: PageView,
+                children: [{
+                    path: "/list",
+                    name: "学习内容",
+                    meta: {
+                        icon: "user"
+                    },
+                    component: () =>
+                        import ("@/pages/Learn/"),
+                }]
             },
 
             //### 自动生成的Router

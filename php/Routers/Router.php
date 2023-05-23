@@ -24,14 +24,22 @@ class Router
 
     function get_router_list()
     {
-        $this->total_add_controller('learn_controller', '学习信息');
-
         /// 加载基础配置
         $this->get_basic_list();
 
         //<!!!!!!> auto insert router here; dont delete this row;
+        //学习内容
+        $this->total_add_controller("learn_controller",'学习内容');
 
-       //<!!!!!!> auto insert router here; dont delete this row;
+
+        //管理后台用户
+        $this->total_add_controller("admin_user_controller",'管理后台用户');
+
+
+        //用户角色
+        $this->total_add_controller("roles_controller",'用户角色');
+
+        //<!!!!!!> auto insert router here; dont delete this row;
 
         return $this->RouterList;
     }

@@ -37,9 +37,9 @@ const Timestamp = new Date().getTime();
 
 module.exports = {
     devServer: {
-        port: 8090,
+        port: 8901,
         proxy: {
-            '^/blog': {
+            '^/fast_php': {
                 //此处要与 /services/api.js 中的 API_PROXY_PREFIX 值保持一致
                 target: process.env.VUE_APP_API_BASE_URL,
                 changeOrigin: true,

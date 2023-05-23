@@ -20,7 +20,6 @@ class config
     {
         // 项目根目录
         define('APP_ROOT', trim(__DIR__ . '/'));
-        echo "[FAST_PHP]: APP_ROOT: " . APP_ROOT . "\r\n";
 
         $config = AppConfig::getConfig();
         AppConfig::config_env($config);

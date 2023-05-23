@@ -343,7 +343,7 @@ class table_info
                     "required" => true,
                 ),                
             ),
-            'role:用户角色' => array(
+            'roles:用户角色' => array(
                 "name" => array(
                     "des" => "角色名称",
                     "columnProperty" => "varchar(40)",
@@ -399,7 +399,7 @@ class table_info
                     "formType" => "text",
                     "required" => true,
                 ),
-            ),
+            )
         );
 
         return array_merge($table_info, $basic_array);
